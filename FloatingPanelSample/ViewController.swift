@@ -7,14 +7,13 @@
 //
 
 import UIKit
+import FloatingPanel
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBAction func tappedButton(_ sender: Any) {
+                present(FirstViewController(), animated: true, completion: nil)
     }
-
-
+    
 }
 

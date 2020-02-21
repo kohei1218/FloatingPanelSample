@@ -1,0 +1,6 @@
+framework module Pods_FloatingPanelSampleUITests {
+  umbrella header "Pods-FloatingPanelSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
